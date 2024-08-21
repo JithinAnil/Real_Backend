@@ -1,10 +1,10 @@
 const express = require('express')
 const app = express()
 const mongoose= require('mongoose')
-// const port = 3000
-const houseRouter = require('../Real_Backend/routes/houseroute')
-const enquiryRouter = require('../Real_Backend/routes/enquiryroutes')
-const userRouter = require('../Real_Backend/routes/userroute')
+// const port = 30000
+const houseRouter = require('../routes/houseroute')
+const enquiryRouter = require('../routes/enquiryroutes')
+const userRouter = require('../routes/userroute')
 const dotenv = require('dotenv')
 dotenv.config()
 const port = process.env.PORT
